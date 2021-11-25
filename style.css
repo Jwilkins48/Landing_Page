@@ -1,27 +1,29 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
-body{
+
+body {
     margin: 0;
     padding: 0;
     font-family: 'Roboto', sans-serif;
 }
 
-.sectionOne{
+.sectionOne {
     background-color: #1f2937;
     display: flex;
     flex-direction: column;
-    
+
 }
 
-.header{
+.header {
     display: flex;
     justify-content: space-between;
 
 }
-.header-links{
+
+.header-links {
     display: flex;
 }
 
-.logo{
+.logo {
     font-size: 24px;
     font-weight: bold;
     color: #f9faf8;
@@ -29,40 +31,48 @@ body{
     margin-top: 10px;
 }
 
-.content{
+.content {
     display: flex;
     justify-content: center;
     align-items: center;
     margin: 15px;
 }
 
-.heading{
+/* Heading and subtext */
+.heading {
     font-size: 48px;
     font-weight: bolder;
     color: #f9faf8;
     margin-bottom: 5px;
 }
 
-
-.subtext{
+.subtext {
     font-size: 18px;
     color: #e5e7eb;
 }
 
-ul{
+/* Links */
+ul {
     list-style-type: none;
     display: flex;
     gap: 25px;
     flex-wrap: nowrap;
     margin-right: 515px;
 }
-a{
+
+a {
     text-decoration: none;
     font-size: 18px;
     color: #e5e7eb;
 }
 
-.signUpBtn{
+/* Left */
+.left-content {
+    max-width: 415px;
+    padding: 40px;
+}
+
+.signUpBtn {
     border-radius: 5px;
     padding: 4px 15px;
     font-family: 'Roboto', sans-serif;
@@ -72,7 +82,8 @@ a{
     width: 25%;
 }
 
-.placeholder{
+/* Right */
+.placeholder {
     color: #e5e7eb;
     border: solid 1px rgb(95, 84, 84);
     background-color: rgb(93, 99, 117);
@@ -80,7 +91,50 @@ a{
     margin: 65px 160px 60px;
 
 }
-.left-content{
-    max-width: 415px;
-    padding: 40px;
+
+/* second section */
+
+.img-container{
+    display: flex;
+    justify-content: center;
+
+}
+
+
+.img-container div{
+    display: flex;
+    border: solid 4px #3882f6;
+    border-radius: 10px;
+    padding: 20px;
+    justify-content: space-evenly;
+    gap: 50px;
+}
+
+.info-header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 36px;
+    font-weight: bolder;
+    color: #1f2937;
+    margin: 50px;
+}
+
+.box{
+    width: 120px;
+    height: 115px;
+    margin: 10px 30px 0;
+}
+.text{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 15px;
+}
+.infoTxt{
+    text-align: center;
+    width: 160px;
+    margin: 0 25px;
+    padding: 10px;
+    color: #626874;
 }
