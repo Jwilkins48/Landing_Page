@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;1,300&display=swap');
 
 body {
     margin: 0;
@@ -144,23 +144,23 @@ a {
 .quote-container{
     background-color: #e5e7eb;
     height: 100%;
+    padding: 100px;
     
 }
 .quote{
     font-size: 36px;
+    font-weight: 300;
     color: #1f2937;
-    padding: 150px;
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-left: 20%;
-    margin-right: 20%;
+    width: 50%;
+    margin-left: 480px;
     
 }
 .name{
-  display: flex;
-  justify-content: center;
-  font-weight: bolder;
-  flex-direction: column;
-  align-items: flex-end;
+  text-align: center;
+  font-size: 25px;
+  margin-left: 500px;
+  font-weight: bold;
 }
